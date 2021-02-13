@@ -2,6 +2,6 @@ import react from 'react';
 
 export default function Calendar() {
     return (
-        <h1>Calendar</h1>
+        <h2>Calendar</h2>
     )
 }
