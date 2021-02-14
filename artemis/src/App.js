@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Main from './Main.js'
 import Calendar from './Calendar.js'
+import Summary from './Summary.js'
+import Settings from './Settings.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -12,9 +14,9 @@ function App() {
     if (tab == "home") {
       return <Calendar />
     } else if (tab == "summary") {
-      return <p>Summary</p>
+      return <Summary />
     } else {
-      return <p>Setting</p>
+      return <Settings />
     }
   }
 
